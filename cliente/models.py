@@ -1,7 +1,7 @@
 from django.db import models
 
 
-Class Pais(models.Model):
+class Pais(models.Model):
     nombre = models.CharField(max_length=50, unique=True)
     
     def __str__(self):
